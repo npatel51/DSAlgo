@@ -5,12 +5,12 @@ import java.util.NoSuchElementException;
  * @author Niraj Patel
  * @date  01/06/2018
  */
-public class ArrayQueue {
+public class ArrayBasedQueue {
 
 	/**
 	 * A queue is a list or collection with restraint that insertion must happen at
 	 * the rear ( or tail ) and deletion or dequeue must happen at the front (or
-	 * head). î As an element enters the queue it starts at the rear and makes its
+	 * head). ‚Äù As an element enters the queue it starts at the rear and makes its
 	 * way toward the front, waiting until that time when it is the next element to
 	 * be removed. The item longest in the list is removed first, also know as FIFO.
 	 * 
