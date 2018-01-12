@@ -1,5 +1,5 @@
 package List;
-
+//List interface
 public interface List<E> {
 
 	/**
@@ -12,7 +12,7 @@ public interface List<E> {
 	public void add(E data);
 
 	/**
-	 * Clears the list
+	 * Clear the list
 	 */
 	public void clear();
 
@@ -33,7 +33,7 @@ public interface List<E> {
 	/**
 	 * The last element in the list, without removing it
 	 * 
-	 * @return - the top item in the list
+	 * @return - the top item in they list
 	 */
 	public E getFirst();
 
