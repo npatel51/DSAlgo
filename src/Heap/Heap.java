@@ -84,7 +84,7 @@ public class Heap {
 	}
 	// delete the root/head of the heap
 	public void poll() {
-		// replace root with the last element in the array
+		// replace root with the last node of the tree
 		// float down A[0] till the max-heap property is restored
 		heap[0] = heap[index];
 		heap[index] = 0;
@@ -105,7 +105,7 @@ public class Heap {
 
 		if (largest != index) {
 			swap(index, largest);
-			maxHeapify(largest); // recursively swap until max-heap property is reserved
+			maxHeapify(largest); // recursively swap until max-heap property is restored
 		}
 	}
 
