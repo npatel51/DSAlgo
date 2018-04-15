@@ -10,6 +10,7 @@ Implementation of common and frequently used data structures and algorithms.
 * [Reference Based Queue](https://github.com/npatel51/Data-Structures-and-Algorithms/blob/master/src/Queue/Queue.java)
 * [Aray Based Stack](https://github.com/npatel51/Data-Structures-and-Algorithms/blob/master/src/Stack/Arraystack.java)
 * [Reference Based Stack](https://github.com/npatel51/Data-Structures-and-Algorithms/blob/master/src/Stack/Stack.java)
+* [Trie](https://github.com/npatel51/DSAlgo/tree/master/src/src)
 
 ## C++
 
